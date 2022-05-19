@@ -7,7 +7,7 @@ function Banner() {
     return (
         <div className="">
             <div className="px-4 sm:px-0 grid grid-cols-1 md:grid-cols-8">
-                <div className="   md:col-span-5 flex flex-col justify-center gap-y-3">
+                <div className="   md:col-span-5 flex flex-col justify-center  gap-y-3">
                     <p className="text-3xl md:text-4xl lg:text-5xl ">Music for NFT creators.</p>
                     <p className="text-2xl md:text-3xl lg:text-4xl -mt-2">
                         Digital Music for fans.
@@ -22,7 +22,7 @@ function Banner() {
                             <p className="text-xs font-thin">Powered by</p>
                             <img className="w-24 h-3" src={SolonaLogo} alt="SOLONA" />
                         </div>
-                        <button className="ml-9 flex justify-center items-center border border-white py-2 px-5 rounded-2xl font-thin hover:bg-blue-700 transition duration-500 text-xs md:text-base ">
+                        <button className="btn ml-9">
                             <div>Discover More</div>
                             <div className="ml-2">&gt;</div>{' '}
                         </button>
