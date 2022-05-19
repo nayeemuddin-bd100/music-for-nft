@@ -52,3 +52,7 @@ body {
   scroll-behavior: smooth;
   @apply font-body bg-[#0B0B0D] text-white;
 }
+
+.btn {
+  @apply flex justify-center items-center border border-white py-2 px-5 rounded-2xl font-thin hover:bg-blue-700 transition duration-500 text-xs md:text-base;
+}
