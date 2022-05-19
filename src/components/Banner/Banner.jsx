@@ -17,19 +17,19 @@ function Banner() {
                         create community together as we enter the upcoming year — undoubtedly
                         changing the trajectory of countless budding music careers.{' '}
                     </p>
-                    <div className="flex">
+                    <div className="flex justify-center md:justify-start">
                         <div className="flex flex-col">
                             <p className="text-xs font-thin">Powered by</p>
                             <img className="w-24 h-3" src={SolonaLogo} alt="SOLONA" />
                         </div>
-                        <button className="ml-9 flex justify-center items-center border border-white py-2 px-5 rounded-2xl font-thin hover:bg-blue-700 transition duration-500 ">
+                        <button className="ml-9 flex justify-center items-center border border-white py-2 px-5 rounded-2xl font-thin hover:bg-blue-700 transition duration-500 text-xs md:text-base ">
                             <div>Discover More</div>
                             <div className="ml-2">&gt;</div>{' '}
                         </button>
                     </div>
                 </div>
-                <div className="   md:col-span-3 lg:-mt-12 ">
-                    <img className="" src={MainBanner} alt="mainBanner" />
+                <div className="   md:col-span-3 lg:-mt-12 flex justify-center ">
+                    <img className=" w-60 sm:w-80 md:w-full" src={MainBanner} alt="mainBanner" />
                 </div>
             </div>
         </div>
