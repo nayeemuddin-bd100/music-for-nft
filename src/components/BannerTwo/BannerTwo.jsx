@@ -16,7 +16,7 @@ function BannerTwo() {
                         now produce any music content that cannot be counterfeited.
                     </p>
                 </div>
-                <div className="px-5 flex justify-center  sm:px-0 mt-5 md:mt-0 lg:mt-40 col-span-2">
+                <div className="hidden px-5 sm:flex justify-center  sm:px-0 mt-5 md:mt-0 lg:mt-40 col-span-2">
                     <img className="w-80 sm:w-full " src={`${Banner2}`} alt="Banner two" />
                 </div>
             </div>
