@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from '../components/Banner/Banner';
 import BannerTwo from '../components/BannerTwo/BannerTwo';
 import FanBar from '../components/FanBar/FanBar';
+import Marketplace from '../components/Marketplace/Marketplace';
 import Footer from '../shared/sharedcomponents/Footer';
 import Navbar from '../shared/sharedcomponents/Navbar';
 import Styles from '../styles/Home.module.css';
@@ -18,6 +19,7 @@ function Home() {
             </div>
             <FanBar />
             <BannerTwo />
+            <Marketplace />
             <Footer />
         </div>
     );
