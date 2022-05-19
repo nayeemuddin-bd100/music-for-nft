@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* imported fonts will be placed right below */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+}
+
+@layer components {
+}
+
+@layer utilities {
+}
+
+/* ----------- for high customized responsiveness ------------ */
+.main-container {
+  @apply w-full mx-auto;
+}
+@media (min-width: 576px) {
+  .main-container {
+    max-width: 540px !important;
+  }
+}
+@media (min-width: 768px) {
+  .main-container {
+    max-width: 720px !important;
+  }
+}
+@media (min-width: 992px) {
+  .main-container {
+    max-width: 970px !important;
+  }
+}
+@media (min-width: 1200px) {
+  .main-container {
+    max-width: 1170px !important;
+  }
+  .userImg {
+    display: block;
+  }
+}
+@media (min-width: 1400px) {
+  .main-container {
+    max-width: 1320px !important;
+  }
+}
+
+/* ------------ custom css if needed -------------- */
+body {
+  scroll-behavior: smooth;
+  @apply font-body bg-[#0B0B0D] text-white;
+}

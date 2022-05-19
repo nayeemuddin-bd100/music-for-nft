@@ -1,0 +1,8 @@
+.bgImage1 {
+  background-image: url('../assets/images/global-bg-1.png') !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-position: center center;
+}
