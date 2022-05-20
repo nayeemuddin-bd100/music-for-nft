@@ -1,6 +1,8 @@
 import React from 'react';
 import Banner from '../components/Banner/Banner';
 import BannerTwo from '../components/BannerTwo/BannerTwo';
+import DiscoverMarketPlace from '../components/DiscoverMarketPlace/DiscoverMarketPlace';
+import EngageFan from '../components/EngageFan/EngageFan';
 import FanBar from '../components/FanBar/FanBar';
 import Marketplace from '../components/Marketplace/Marketplace';
 import Footer from '../shared/sharedcomponents/Footer';
@@ -20,6 +22,8 @@ function Home() {
             <FanBar />
             <BannerTwo />
             <Marketplace />
+            <EngageFan />
+            <DiscoverMarketPlace />
             <Footer />
         </div>
     );
